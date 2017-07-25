@@ -35,10 +35,9 @@ public class kurs1 extends Application{
 		
 		StackPane stackPane = loader.load();
 		
-		
 		Scene scene = new Scene(stackPane);
 		primaryStage.setScene(scene);
-		primaryStage.setTitle("Pierwszy program");
+		primaryStage.setTitle("Gra w 15");
 		//scene.getStylesheets().add(StackPaneController.class.getResource("style.css").toExternalForm());
 		primaryStage.show();
 		

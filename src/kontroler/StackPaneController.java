@@ -1,5 +1,4 @@
 package kontroler;
-
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -23,7 +22,6 @@ public class StackPaneController {
 
 			@Override
 			public void handle(ActionEvent event) {
-				// TODO Auto-generated method stub
 				System.out.println(((Button)event.getSource()).getText());
 
 				//if (!((Button) event.getSource()).getText().toString().equals("OK")) {
@@ -33,7 +31,6 @@ public class StackPaneController {
 			}
 
 		};
-	//	button.addEventHandler(ActionEvent.ACTION, handler);
 		uruchomGre();
 	}
 
