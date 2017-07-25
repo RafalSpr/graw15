@@ -13,7 +13,6 @@ public class StackPaneController {
 	private GridPane gridpanel;
 	Gra gra = new Gra();
 	private EventHandler<ActionEvent> handler;
-
 	public StackPaneController() {
 	};
 
