@@ -1,3 +1,8 @@
+/**
+ * Prosta gra w 15 wykonana w javafx
+ * pierwsza aplikacja w tej bibliotece
+ * @author Rafcio
+ */
 package tescik;
 
 import javafx.application.Application;

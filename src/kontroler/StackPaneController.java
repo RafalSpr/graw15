@@ -22,8 +22,7 @@ public class StackPaneController {
 
 			@Override
 			public void handle(ActionEvent event) {
-				System.out.println(((Button)event.getSource()).getText());
-
+				//System.out.println(((Button)event.getSource()).getText());
 				//if (!((Button) event.getSource()).getText().toString().equals("OK")) {
 					gra.graj(((Button) event.getSource()).getId());
 			//	}

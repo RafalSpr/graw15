@@ -13,7 +13,7 @@ public class Gra {
 
 	public Gra() {
 		poczatek();
-		losuj(10);
+		losuj(300);
 	}
 
 	public void poczatek() {
@@ -30,10 +30,11 @@ public class Gra {
 	}
 
 	public void odNowa() {
-		for (int nr = 1; nr <= 16; nr++) {
+		for (int nr = 1; nr < 16; nr++) {
 			przyciski[nr].setText(Integer.toString(nr));
 		}
-		
+		przyciski[16].setText(PUSTY);
+		nrPustego=16;
 	}
 
 	public void losuj(int ileRazy) {
@@ -91,7 +92,7 @@ public class Gra {
 		}
 		if (czyKoniec()) {
 			odNowa();
-			losuj(100);
+			losuj(300);
 		}
 
 	}
