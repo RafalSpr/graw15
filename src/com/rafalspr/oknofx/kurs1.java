@@ -3,16 +3,13 @@
  * pierwsza aplikacja w tej bibliotece
  * @author Rafcio
  */
-package tescik;
+package com.rafalspr.oknofx;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
-import kontroler.StackPaneController;
 
 public class kurs1 extends Application{
 

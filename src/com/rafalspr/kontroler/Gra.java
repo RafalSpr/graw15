@@ -1,4 +1,4 @@
-package kontroler;
+package com.rafalspr.kontroler;
 
 import java.util.Random;
 
